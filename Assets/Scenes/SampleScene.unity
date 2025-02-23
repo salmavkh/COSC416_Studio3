@@ -709,8 +709,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.020819789, y: 0.000000029810405, z: -6.207809e-10, w: 0.9997833}
-  m_LocalPosition: {x: -21.97, y: 9.85, z: -29.31}
+  m_LocalRotation: {x: 0.24567056, y: -2.5705898e-15, z: 6.51484e-16, w: 0.96935344}
+  m_LocalPosition: {x: -21.97, y: 12.85, z: -29.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3108,11 +3108,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9776765d36de48e49e13003ca76cc04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7
+  moveSpeed: 5
   rotationSpeed: 10
-  jumpForce: 7
+  jumpForce: 5
   maxJumps: 2
-  dashSpeed: 10
+  dashSpeed: 7
   dashCooldown: 2
 --- !u!95 &1395034862
 Animator:
@@ -3170,7 +3170,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1395034859}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 83f0a9ad775c74971a9bb6af440ec3b6, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3702,7 +3702,7 @@ MonoBehaviour:
       Enabled: 0
       Size: {x: 0.8, y: 0.8}
       Offset: {x: 0, y: 0}
-  CenterOnActivate: 0
+  CenterOnActivate: 1
   TargetOffset: {x: 0, y: 2, z: 0}
   Damping: {x: 0.5, y: 0.5}
   Lookahead:
@@ -3722,7 +3722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b5d7c088409d9a40b7b09aa707777f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetOffset: {x: 0, y: 0, z: 0}
+  TargetOffset: {x: 0, y: 3, z: 0}
   TrackerSettings:
     BindingMode: 4
     PositionDamping: {x: 1, y: 1, z: 1}
@@ -3824,13 +3824,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1600718961}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.020819789, y: 0.000000029810405, z: -6.207809e-10, w: 0.9997833}
-  m_LocalPosition: {x: -21.97, y: 9.85, z: -29.31}
+  m_LocalRotation: {x: 0.24567054, y: -2.678375e-15, z: 1.076778e-15, w: 0.96935344}
+  m_LocalPosition: {x: -21.97, y: 12.85, z: -29.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 2.121, y: 27.282, z: 1.093}
 --- !u!4 &1602143669 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7080972552677927687, guid: 0ab22827d0f3f0b40a97e9430d684283, type: 3}
